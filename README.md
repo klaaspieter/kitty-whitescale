@@ -2,6 +2,8 @@
 
 A whitescale colorscheme meant to keep its colors in white, black, and gray.
 
+[Screenshot](https://p80.f1.n0.cdn.getcloudapp.com/items/7KuyBYyy/Image+2019-12-03+at+12.27.33+PM.png?v=97128bde07584aafb435ae8d206f5036)
+
 ## Installation
 
 Open the directory with your Kitty config:
