@@ -40,6 +40,19 @@ Luminosity = 0.21 × Red + 0.72 × Green + 0.07 × Blue
 
 The Luminosity method is a more sophisticated version of averaging the red, green and blue. The method still uses an average but weights it to account for human perception. We're more sensitive to green, so green is weighted most heavily.
 
+Print the config to the console
+
+```sh
+./bin/generate
+```
+
+Or write it to a file
+
+```sh
+./bin/generate > test.theme
+```
+
+
 [256 colors]: https://jonasjacek.github.io/colors/
 [256 colors json]: https://jonasjacek.github.io/colors/data.json)
 [luminosity formula]: https://docs.gimp.org/2.6/en/gimp-tool-desaturate.html
