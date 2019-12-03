@@ -57,6 +57,25 @@ Or write it to a file
 [256 colors json]: https://jonasjacek.github.io/colors/data.json)
 [luminosity formula]: https://docs.gimp.org/2.6/en/gimp-tool-desaturate.html
 
+## Testing and debugging
+
+A version of the [ansi] bash cript is provided for testing and
+debugging convenience.
+
+For example to preview every color code and their final colors:
+
+```sh
+./bin/ansi --color-codes
+```
+
+Similarly to preview bold, underline, italic, etc:
+
+```sh
+./bin/ansi --color-table
+```
+
+[ansi]: https://github.com/fidian/ansi
+
 ## Attribution
 
 Inspired by [vim-whitescale]
