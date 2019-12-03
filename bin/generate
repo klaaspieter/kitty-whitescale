@@ -1,0 +1,8 @@
+#!/bin/sh
+
+grays=$(\
+  jq '.[] | (.rgb.r * 0.21) + (.rgb.g * 0.72) + (.rgb.b * 0.07)' colors.json\
+)
+
+echo "$grays" \
+  | awk '{printf "color%s #%02x%02x%02x\n", NR-1, int($0), int($0), int($0)}'
